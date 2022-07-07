@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--USSVision_Support_Settings-->
+<Config>
+  <IpAddress>rtsp://admin:admin1234@10.1.10.19:554/cam/realmonitor?channel=1&amp;subtype=0</IpAddress>
+  <ModelPath>C:\Users\bailey\source\old_repo\repos\LiveStreamVideoAPP\LiveStreamVideoAPP\LobeModel\Stamping</ModelPath>
+  <ConfidenceThreshold>70</ConfidenceThreshold>
+  <ClassToPass>Blank Present,No Blank Present,Human Present</ClassToPass>
+  <SaveFails>true</SaveFails>
+  <FailImgagePath>C:\Users\bailey\source\old_repo\repos\LiveStreamVideoAPP\LiveStreamVideoAPP\Fails</FailImgagePath>
+  <FPS>100</FPS>
+  <PredictionRate>1</PredictionRate>
+  <LogoIconPath>C:\Users\bailey\source\old_repo\repos\LiveStreamVideoAPP\LiveStreamVideoAPP\resources\uss_icon.ico</LogoIconPath>
+  <AlarmAudioPath>C:\Users\bailey\source\old_repo\repos\LiveStreamVideoAPP\LiveStreamVideoAPP\resources\beep.wav</AlarmAudioPath>
+</Config>
