@@ -9,6 +9,6 @@ This application uses Microsoft's Lobe backend to make inferences uses a Lobe tr
 ![](resources/sugarscope_gif.gif?raw=true)
 
 # How to use
-SugarScope AI comes with a config.yaml file which is where all of your input data will come from. In here you can find the path to your .onnx model file as well as the link to connect to your RTSP camera.
+SugarScope AI comes with a config.xml file which is where all of your input data will come from. In here you can find the path to your .onnx model file as well as the link to connect to your RTSP camera.
 
-Once your config.yaml file is setup properly you can then connect to your camera and begin your live predictions!
+Once your config.xml file is setup properly you can then connect to your camera and begin your live predictions!
