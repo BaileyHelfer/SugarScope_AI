@@ -6,6 +6,8 @@ SugarScope AI is a Machine Learning application that allows you to get real time
 
 This application uses Microsoft's Lobe backend to make inferences uses a Lobe trained model converted into onnx format. The image input is taken from any camera that supports RTSP Streaming.
 
+![](resources/sugarscope_gif.gif?raw=true)
+
 # How to use
 SugarScope AI comes with a config.yaml file which is where all of your input data will come from. In here you can find the path to your .onnx model file as well as the link to connect to your RTSP camera.
 
