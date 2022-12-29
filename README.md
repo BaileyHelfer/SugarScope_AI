@@ -1,14 +1,30 @@
 # SugarScope AI - Machine Learning Project
 ![](resources/read_me_preview.PNG?raw=true)
 
-# Background
-SugarScope AI is a Machine Learning application that allows you to get real time image classification predictions!
+## Background
+SugarScope AI is a Machine Learning application that allows you to get real time image classification predictions! This application uses Microsoft's Lobe backend to make inferences from an onnx model.
 
-This application uses Microsoft's Lobe backend to make inferences uses a Lobe trained model converted into onnx format. The image input is taken from any camera that supports RTSP Streaming.
+## Features
+- Real time image classification predictions from RTSP Streaming camera input
+- GUI built with Tkinter library
+- Uses treading library to handle grabbing camera frames
+
 
 ![](resources/sugarscope_gif.gif?raw=true)
 
-# How to use
-SugarScope AI comes with a config.xml file which is where all of your input data will come from. In here you can find the path to your .onnx model file as well as the link to connect to your RTSP camera.
+## How to use
+- Install all necessary libraries and dependencies.
+- Update the RTSP streaming link and model path in the config.xml file.
+- Run the main.py file with python main.py.
+    
+Begin using the GUI to get live predictions from your RTSP Stream!
 
-Once your config.xml file is setup properly you can then connect to your camera and begin your live predictions!
+## Optimizations
+- Use multithreading to improve performance when grabbing camera frames
+- Implement model optimization techniques to optimize for accuracy instead of speed
+- Change the frame rate to one that the network can handle
+
+## Lessons Learned
+- RTSP Streaming can be challenging to work with
+- Tkinter is a simple and easy to use GUI library
+- Microsoft Lobe is a powerful and easy to use tool for making inferences from an onnx model
